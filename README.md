@@ -22,7 +22,12 @@ sudo chown $USER /data/db
 
 ## Что будем использовать на лекции
 
-Файл `nodeschool.archive`
+Файл `nodeschool.archive`.
+
+Восстановление dump'а:
+```sh
+mongorestore --archive=nodeschool.archive --db=nodeschool
+```
 
 ## Материалы для лекции
 
